@@ -1,9 +1,9 @@
-from typing import Any
-from fastapi import APIRouter, Depends, HTTPException, Body
-from sqlalchemy.orm import Session
-from app.api import deps
-from app.api.auth_deps import get_current_user_optional
-from app.core.config import settings
+from typing import Any # to define the type of a variable.
+from fastapi import APIRouter, Depends, HTTPException, Body # to define the API routes, dependencies, HTTP exceptions, and request body.
+from sqlalchemy.orm import Session # to define the database session.
+from app.api import deps # to define the dependencies.
+from app.api.auth_deps import get_current_user_optional # to define the current user.
+from app.core.config import settings # to define the settings.
 from openai import OpenAI
 import json
 

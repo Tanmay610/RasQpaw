@@ -1,7 +1,7 @@
-import json
-import random
-import google.generativeai as genai
-from app.core.config import settings
+import json 
+import random  # to generate random values.
+import google.generativeai as genai # to generate ai responses.
+from app.core.config import settings  # to get the settings from the config file.
 
 def analyze_animal_report(animal_type: str, condition: str, description: str, base64_image: str = None) -> dict:
     """
