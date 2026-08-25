@@ -10,7 +10,7 @@ import { CaseDetail } from './features/dashboard/ui/CaseDetail';
 import { ReportAnimal } from './features/report/ui/ReportAnimal';
 import { RescueMap } from './features/map/ui/RescueMap';
 import { Landing } from './features/landing/ui/Landing';
-import { Diagnosis } from './features/diagnosis/ui/Diagnosis';
+import { Diagnosis } from '../AI_Diagnosis/ui/Diagnosis';
 
 function App() {
   return (

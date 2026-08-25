@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Bot, AlertTriangle, CheckCircle, Activity, ArrowRight } from 'lucide-react';
-import api from '../../../services/api';
+import api from '../../src/services/api';
 
 export const Diagnosis = () => {
   const [animalType, setAnimalType] = useState('Dog');

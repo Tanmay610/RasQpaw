@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from src.features.auth.api import auth_routes
 from src.features.report.api import report_routes
 from src.features.map.api import rescuer_routes, ws_routes
-from src.features.diagnosis.api import ai_routes
+from AI_Diagnosis.api import ai_routes
 
 api_router = APIRouter()
 api_router.include_router(auth_routes.router, prefix="/auth", tags=["auth"])

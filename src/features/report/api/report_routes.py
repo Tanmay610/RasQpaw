@@ -44,7 +44,7 @@ def mock_ai_assessment(report_in: AnimalReportCreate):
     }
     return priority, urgency_score, json.dumps(assessment)
 
-from app.services.ai_vision import analyze_animal_report
+from AI_Diagnosis.api.ai_vision import analyze_animal_report
 
 from app.api.websockets import manager
 import asyncio
