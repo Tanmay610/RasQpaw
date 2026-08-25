@@ -1,19 +1,8 @@
-# Node.js
-node_modules/
-dist/
-build/
-.env
-
-# Python
-__pycache__/
-*.pyc
-venv/
-env/
-.pytest_cache/
-.coverage
-resqpaw.db
-
-# Secrets
-serviceAccountKey.json
-.env
+node_modules
 .DS_Store
+dist
+dist-ssr
+*.local
+backend/.env
+backend/serviceAccountKey.json
+.env
