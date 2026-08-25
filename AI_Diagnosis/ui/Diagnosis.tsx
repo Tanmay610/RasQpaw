@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bot, AlertTriangle, CheckCircle, Activity, ArrowRight } from 'lucide-react';
+import { Bot, AlertTriangle, Activity, ArrowRight } from 'lucide-react';
 import api from '../../src/services/api';
 
 export const Diagnosis = () => {
