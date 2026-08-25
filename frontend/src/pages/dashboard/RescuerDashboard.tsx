@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { useAuth } from '../context/AuthContext';
-import api from '../services/api';
+import { useAuth } from '../../context/AuthContext';
+import api from '../../services/api';
 import { MapPin, Clock, AlertTriangle, ShieldCheck, CheckCircle2, ChevronRight, Navigation, Activity } from 'lucide-react';
 import { format } from 'date-fns';
+import { PriorityBadge } from '../../components/PriorityBadge';
 
 export const RescuerDashboard = () => {
   const { user } = useAuth();

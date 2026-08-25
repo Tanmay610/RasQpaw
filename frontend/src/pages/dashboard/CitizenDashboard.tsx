@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useAuth } from '../context/AuthContext';
-import api from '../services/api';
+import { useAuth } from '../../context/AuthContext';
+import api from '../../services/api';
 import { Clock, MapPin, AlertCircle, RefreshCw, Activity, HeartPulse } from 'lucide-react';
 import { format } from 'date-fns';
 

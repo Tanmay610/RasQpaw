@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { auth, googleProvider } from '../lib/firebase';
+import { auth, googleProvider } from '../../lib/firebase';
 import { createUserWithEmailAndPassword, signInWithPopup, updateProfile } from 'firebase/auth';
 import { HeartPulse } from 'lucide-react';
 

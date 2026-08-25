@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import api from '../services/api';
+import { MapPin, AlertCircle, Clock, CheckCircle, Navigation } from 'lucide-react';
+import api from '../../services/api';
 
 // Fix for default leaflet icons in React
 delete (L.Icon.Default.prototype as any)._getIconUrl;

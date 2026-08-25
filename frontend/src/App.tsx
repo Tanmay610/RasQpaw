@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { Navbar } from './components/Navbar';
-import { Landing } from './pages/Landing';
-import { Login } from './pages/Login';
-import { Register } from './pages/Register';
-import { ReportAnimal } from './pages/ReportAnimal';
-import { RescueMap } from './pages/RescueMap';
-import { CitizenDashboard } from './pages/CitizenDashboard';
-import { RescuerDashboard } from './pages/RescuerDashboard';
-import { Diagnosis } from './pages/Diagnosis';
+import { Landing } from './pages/landing/Landing';
+import { Login } from './pages/auth/Login';
+import { Register } from './pages/auth/Register';
+import { ReportAnimal } from './pages/report/ReportAnimal';
+import { RescueMap } from './pages/map/RescueMap';
+import { CitizenDashboard } from './pages/dashboard/CitizenDashboard';
+import { RescuerDashboard } from './pages/dashboard/RescuerDashboard';
+import { Diagnosis } from './pages/diagnosis/Diagnosis';
 
 function App() {
   return (

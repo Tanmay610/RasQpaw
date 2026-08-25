@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { auth, googleProvider } from '../lib/firebase';
+import { auth, googleProvider } from '../../lib/firebase';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
-import { useAuth } from '../context/AuthContext';
-import { HeartPulse } from 'lucide-react';
+import { useAuth } from '../../context/AuthContext';
+import { HeartPulse, Mail, Lock, LogIn, AlertCircle } from 'lucide-react';
 
 export const Login = () => {
   const [email, setEmail] = useState('');

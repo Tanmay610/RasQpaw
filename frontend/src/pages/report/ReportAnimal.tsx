@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import api from '../services/api';
+import api from '../../services/api';
 import { Camera, MapPin, AlertTriangle, ArrowRight, CheckCircle2, Upload, Crosshair } from 'lucide-react';
 
 export const ReportAnimal = () => {
